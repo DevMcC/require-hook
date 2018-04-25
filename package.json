@@ -1,6 +1,6 @@
 {
   "name": "devmcc-require-hook",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Allows you to hook the require function.",
   "main": "index.js",
   "author": "DevMcC <sinbox.c@gmail.com>",
