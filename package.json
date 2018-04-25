@@ -1,5 +1,6 @@
 {
   "name": "devmcc-require-hook",
+  "version": "1.0.0",
   "description": "Allows you to hook the require function.",
   "main": "index.js",
   "author": "DevMcC <sinbox.c@gmail.com>",
@@ -12,5 +13,8 @@
   "scripts": {
     "test": "mocha"
   },
-  "version": "v0.1.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevMcC/require-hook.git"
+  }
 }
