@@ -80,12 +80,14 @@ requireHook(
     () => require('./test-module')
 )
 ```
+
 **test-module.js**
 ```javascript
 const mod = require('./test-module-function')
 
 console.log(mod.get('abc'))
 ```
+
 **test-module-function.js**
 ```javascript
 module.exports = {
@@ -111,10 +113,12 @@ requireHook().addHook((path, resolve) => {
 
 console.log(require('./test'))
 ```
+
 **test.js**
 ```javascript
 module.exports = 'test'
 ```
+
 **fake.js**
 ```javascript
 module.exports = 'fake'
