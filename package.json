@@ -16,5 +16,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/DevMcC/require-hook.git"
-  }
+  },
+  "keywords": [
+    "require",
+    "require-hook",
+    "testing",
+    "tests",
+    "unit tests",
+    "dependency",
+    "dependencies",
+    "mock dependency",
+    "mock dependencies",
+    "mocking"
+  ]
 }
