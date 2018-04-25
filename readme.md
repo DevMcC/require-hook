@@ -88,8 +88,10 @@ console.log(mod.get('abc'))
 ```
 **test-module-function.js**
 ```javascript
-module.exports = (arg) => {
-    return 'original: ' + arg
+module.exports = {
+    get(arg) {
+        return 'original: ' + arg
+    }
 }
 ```
 
